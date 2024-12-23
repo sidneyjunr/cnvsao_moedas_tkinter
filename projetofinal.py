@@ -74,7 +74,7 @@ def atualizar_cotacoes():
 
 janela = tk.Tk()
 janela.title('Ferramenta de Cotação de Moedas')
-
+janela.anchor('n')
 label_cotacao_moeda = ttk.Label(text='Cotação de 1 moeda específica', borderwidth=2, relief='solid')
 label_cotacao_moeda.grid(row=0,column=0, padx=10,pady=10, sticky='nsew', columnspan=3)
 
